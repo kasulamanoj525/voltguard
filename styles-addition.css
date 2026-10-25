@@ -1,0 +1,16 @@
+
+/* ---- add to the END of styles.css ---- */
+.scenario:disabled,
+.control-button:disabled,
+input[type="range"]:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.protection-settings .large-button {
+  margin-top: 24px;
+}
+
+.protection-settings .muted {
+  margin-top: 14px;
+}
